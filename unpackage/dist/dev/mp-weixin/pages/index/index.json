@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "易道大咖商城",
+  "navigationBarBackgroundColor": "#399eff",
+  "enablePullDownRefresh": false,
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "swiper-dot": "/components/swiperDot"
+  }
+}
