@@ -4,10 +4,10 @@
 
 			<view class="inner-cont p40">
 				<view class="reserve-top">
-					<image src="../../static/service.png" height="54px" />
+					<image src="https://img.edows.cn/wx/service.png" height="54px" />
 				</view>
 				<view class="reserve-bot">
-					<image src="../../static/options.png" height="120px" />
+					<image src="https://img.edows.cn/wx/options.png" height="120px" />
 				</view>
 				<view style="padding-top:20px">
 					<view class="row b-b">

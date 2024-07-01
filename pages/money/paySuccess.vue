@@ -1,7 +1,7 @@
 <template>
 	<view class="content">
 		<view class="orderInfo-box">
-		<image src="../../static/orderPay.png"></image>
+		<image src="https://img.edows.cn/wx/orderPay.png"></image>
 		<text>支付成功</text>
 		</view>
 		<view class="price-box">

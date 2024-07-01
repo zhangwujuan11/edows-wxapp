@@ -1,7 +1,7 @@
 <template>
 	<view class="container">
 		<view class="wxCode">
-			<image src="../../static/yddc.png" ></image>
+			<image src="https://img.edows.cn/wx/yddc.png" ></image>
 			<text>易到大咖商城</text>
 		</view>
 

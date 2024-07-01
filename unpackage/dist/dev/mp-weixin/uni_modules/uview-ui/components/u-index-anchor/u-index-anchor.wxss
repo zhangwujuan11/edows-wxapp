@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+view.data-v-2e330ae9, scroll-view.data-v-2e330ae9, swiper-item.data-v-2e330ae9 {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.u-index-anchor.data-v-2e330ae9 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 15px;
+  z-index: 1;
+}
+.u-index-anchor__text.data-v-2e330ae9 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+

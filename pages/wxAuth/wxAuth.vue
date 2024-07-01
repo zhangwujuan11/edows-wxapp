@@ -3,7 +3,7 @@
 		<view>
 			<view>
 				<view class="header">
-					<image src="/static/yddc.png"></image>
+					<image src="https://img.edows.cn/wx/yddc.png"></image>
 					<text>易道大咖商城</text>
 				</view>
 				<!-- <view class='content'>
@@ -19,7 +19,7 @@
 		</view>
 		<view class="maskFull" v-show="isCanUse">
 			<view class="winChoose">
-				<text class="win-tit">选择身份登录</text>
+				<text class="win-tit">选择身份登录将去除门店用户登录</text>
 				<view class="win-cotent">
 					<view class="win-cell-list" @click="toAuthLogin('person')">
 						<view>
@@ -85,7 +85,6 @@
 				avatarUrl:'',
 				privacyContractName: '《隐私保护引导》',
 				showPrivacy: true,
-				
 				returnUrl : '',
 				SessionKey: '',
 				isShowMask: false,

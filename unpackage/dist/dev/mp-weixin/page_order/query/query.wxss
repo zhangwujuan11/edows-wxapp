@@ -1,0 +1,68 @@
+
+Page{
+	background-color: #F6F6F6;
+}
+
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.query.data-v-7a1a34de {
+  padding: 24rpx 32rpx;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.card_job.data-v-7a1a34de {
+  padding: 42rpx 32rpx;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  height: 186rpx;
+  width: 100%;
+  display: flex;
+  background: #FFFFFF;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+}
+.card_job .text.data-v-7a1a34de {
+  font-weight: 500;
+  font-size: 32rpx;
+  color: #0E1D29;
+  line-height: 50rpx;
+}
+.queryContent.data-v-7a1a34de {
+  width: 100%;
+  margin-top: 24rpx;
+  background-color: #FFFFFF;
+  padding: 32rpx;
+  box-sizing: border-box;
+}
+.u-textarea[data-v-09988a29].data-v-7a1a34de {
+  padding: 0rpx;
+}
+.tabbar.data-v-7a1a34de {
+  width: 100%;
+  height: 148rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #FFFFFF;
+  box-shadow: 0rpx -6rpx 12rpx 1rpx rgba(0, 0, 0, 0.1);
+  border-radius: 0rpx 0rpx 0rpx 0rpx;
+  padding: 30rpx 32rpx;
+  box-sizing: border-box;
+  display: flex;
+}
+.bottom_but.data-v-7a1a34de {
+  width: 100%;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  color: #FFFFFF;
+  background: #2063EB;
+  border-radius: 16rpx 16rpx 16rpx 16rpx;
+}
+

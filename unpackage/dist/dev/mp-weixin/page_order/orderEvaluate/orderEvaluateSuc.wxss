@@ -1,0 +1,44 @@
+
+page{
+	background-color: #F6F6F6;
+}
+
+
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.orderEvaluateSuc.data-v-4102f935 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin-top: 200rpx;
+}
+.orderEvaluateSuc .text1.data-v-4102f935 {
+  font-weight: bold;
+  font-size: 32rpx;
+  color: #333333;
+  margin: 20rpx 0;
+}
+.orderEvaluateSuc .text2.data-v-4102f935 {
+  font-weight: 400;
+  font-size: 24rpx;
+  color: #999999;
+  margin-bottom: 88rpx;
+}
+.orderEvaluateSuc .bus.data-v-4102f935 {
+  width: 210rpx;
+  height: 72rpx;
+  border-radius: 44rpx 44rpx 44rpx 44rpx;
+  border: 2rpx solid #666666;
+  text-align: center;
+  line-height: 72rpx;
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #333333;
+}
+

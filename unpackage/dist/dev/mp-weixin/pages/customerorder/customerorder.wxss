@@ -1,0 +1,78 @@
+
+page  {
+	background-color: #F6F6F6;
+}
+
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.order.data-v-06196628 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 32rpx;
+  /* background-color: #F6F6F6; */
+}
+.card.data-v-06196628 {
+  width: 100%;
+  height: 410rpx;
+  background: #FFFFFF;
+  margin-top: 24rpx;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  display: flex;
+  flex-direction: column;
+  padding: 42rpx 32rpx;
+  box-sizing: border-box;
+}
+.card .text_shopName.data-v-06196628 {
+  font-weight: 400;
+  font-size: 32rpx;
+  color: #333333;
+  line-height: 38rpx;
+}
+.card .text_sta.data-v-06196628 {
+  font-weight: 400;
+  font-size: 32rpx;
+  color: #333333;
+  line-height: 38rpx;
+  margin-left: auto;
+}
+.card .line.data-v-06196628 {
+  /* height: 1rpx; */
+  border-top: 1rpx solid #D7D7D7;
+  margin-bottom: 32rpx;
+}
+.card .itemName.data-v-06196628 {
+  font-weight: 500;
+  font-size: 32rpx;
+  color: #0E1D29;
+  line-height: 40rpx;
+}
+.card .itemPrice.data-v-06196628 {
+  font-weight: bold;
+  font-size: 40rpx;
+  color: #0E1D29;
+  line-height: 40rpx;
+}
+.card .buts.data-v-06196628 {
+  display: flex;
+  margin-top: 32rpx;
+  margin-left: auto;
+}
+.card .buts .but.data-v-06196628 {
+  width: 160rpx;
+  height: 58rpx;
+  background: #FFFFFF;
+  border-radius: 29rpx 29rpx 29rpx 29rpx;
+  border: 1rpx solid #707070;
+  text-align: center;
+  line-height: 58rpx;
+  font-size: 24rpx;
+}
+.card .buts .but.data-v-06196628:nth-child(2) {
+  margin: 0 24rpx;
+}
+

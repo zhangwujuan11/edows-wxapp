@@ -1,9 +1,10 @@
 {
-  "navigationBarTitleText": "易道大咖商城",
-  "navigationBarBackgroundColor": "#399eff",
+  "navigationBarTitleText": "易道大咖",
+  "navigationBarBackgroundColor": "#2163EC",
   "enablePullDownRefresh": false,
   "navigationBarTextStyle": "white",
   "usingComponents": {
-    "swiper-dot": "/components/swiperDot"
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u--input": "/uni_modules/uview-ui/components/u--input/u--input"
   }
 }

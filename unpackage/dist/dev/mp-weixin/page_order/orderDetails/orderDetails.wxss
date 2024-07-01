@@ -1,0 +1,543 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* uni-page-head[uni-page-head-type=default]~uni-page-wrapper {
+	background-color: #f6f6f6 !important;
+} */
+Page{
+	background-color: #f6f6f6 !important;
+}
+page{
+	background-color: #f6f6f6 !important;
+}
+
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.orderDetails.data-v-c0591ae8 {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx 32rpx;
+  box-sizing: border-box;
+}
+.text_orderStatus.data-v-c0591ae8 {
+  font-family: Arial, Arial;
+  font-weight: bold;
+  font-size: 48rpx;
+  color: #FFFFFF;
+  margin: 40rpx 0 32rpx 32rpx;
+  line-height: 46rpx;
+  display: block;
+}
+.crad_details.data-v-c0591ae8 {
+  overflow: auto;
+  margin-top: 32rpx;
+  background: #FFFFFF;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  padding: 45rpx 30rpx 45rpx 19rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin-top: 90rpx;
+}
+.steps.data-v-c0591ae8 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15rpx;
+}
+.steps_head.data-v-c0591ae8 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.steps_head .text.data-v-c0591ae8 {
+  font-weight: 500;
+  font-size: 32rpx;
+  color: #333333;
+  margin-left: 16rpx;
+}
+.steps_head .time.data-v-c0591ae8 {
+  margin-left: auto;
+}
+.steps_head .query.data-v-c0591ae8 {
+  width: 142rpx;
+  height: 44rpx;
+  background: #FFFFFF;
+  border-radius: 22rpx 22rpx 22rpx 22rpx;
+  border: 1rpx solid #2063EB;
+  font-weight: 500;
+  font-size: 24rpx;
+  color: #2063EB;
+  line-height: 44rpx;
+  text-align: center;
+  margin-left: 16rpx;
+}
+.steps_content.data-v-c0591ae8 {
+  display: flex;
+  margin-top: 13rpx;
+  min-height: 60rpx;
+}
+.steps_content .stepsLine_box.data-v-c0591ae8 {
+  width: 38rpx;
+  display: block;
+}
+.steps_content .text.data-v-c0591ae8 {
+  width: 95%;
+  font-weight: 400;
+  font-size: 24rpx;
+  color: #999999;
+  margin-left: 16rpx;
+}
+.steps_bottom.data-v-c0591ae8 {
+  display: flex;
+  height: 103rpx;
+  border-top: 1rpx solid #D4D4D4;
+  border-bottom: 1rpx solid #D4D4D4;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.steps_bottom .text.data-v-c0591ae8 {
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #333333;
+  margin-left: 12rpx;
+  line-height: 56rpx;
+}
+.steps_left.data-v-c0591ae8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.steps.data-v-c0591ae8 {
+  display: flex;
+}
+.stepsSuc.data-v-c0591ae8 {
+  width: 38rpx;
+  height: 38rpx;
+}
+.stepsNo.data-v-c0591ae8 {
+  width: 38rpx;
+  height: 38rpx;
+  width: 16rpx;
+  height: 16rpx;
+  line-height: 16rpx;
+  margin: 0 12rpx;
+  background: #FFFFFF;
+  border: 3rpx solid #B9B9B9;
+  border-radius: 50rpx;
+}
+.stepsLine.data-v-c0591ae8 {
+  display: block;
+  width: 0rpx;
+  height: 100%;
+  border: 1rpx solid #D4D4D4;
+  margin: 0 auto;
+}
+.grid-container.data-v-c0591ae8 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* 创建五列，每列宽度相同 */
+  grid-gap: 10px;
+  /* 设置网格项之间的间距 */
+  margin-left: 16rpx;
+  margin-top: 12rpx;
+  margin-bottom: 32rpx;
+}
+.grid-item image.data-v-c0591ae8 {
+  border-radius: 8rpx;
+  height: 104rpx;
+  width: 104rpx;
+  background: #F6F6F6;
+}
+.file.data-v-c0591ae8 {
+  margin-left: 16rpx;
+  margin-top: 12rpx;
+  margin-bottom: 32rpx;
+  width: 584rpx;
+  height: 116rpx;
+  background: #F6F6F6;
+  border-radius: 8rpx 8rpx 8rpx 8rpx;
+  padding: 22rpx 24rpx;
+  box-sizing: border-box;
+}
+.stretch.data-v-c0591ae8 {
+  font-weight: 400;
+  font-size: 24rpx;
+  color: #999999;
+  margin: 33rpx auto 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.userInfo.data-v-c0591ae8 {
+  height: 547rpx;
+  background: #FFFFFF;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  margin-top: 24rpx;
+  padding: 32rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.userInfo .title.data-v-c0591ae8 {
+  font-weight: 500;
+  font-size: 34rpx;
+  color: #000100;
+  line-height: 38rpx;
+}
+.userInfo .left.data-v-c0591ae8 {
+  font-family: Source Han Sans CN, Source Han Sans CN;
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #666666;
+}
+.userInfo .right.data-v-c0591ae8 {
+  font-family: Source Han Sans CN, Source Han Sans CN;
+  font-weight: 500;
+  font-size: 28rpx;
+  color: #333333;
+}
+.shopList.data-v-c0591ae8 {
+  margin-top: 24rpx;
+  background: #FFFFFF;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  padding: 32rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.shopList .count.data-v-c0591ae8 {
+  font-size: 24rpx;
+  color: #0E1D29;
+  line-height: 40rpx;
+}
+.shopList .price.data-v-c0591ae8 {
+  font-weight: 500;
+  font-size: 32rpx;
+  color: #0E1D29;
+  line-height: 40rpx;
+}
+.shopList .shopName.data-v-c0591ae8 {
+  font-weight: 500;
+  font-size: 32rpx;
+  color: #0E1D29;
+  line-height: 40rpx;
+}
+.orderInfo.data-v-c0591ae8 {
+  background: #FFFFFF;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  margin-top: 24rpx;
+  padding: 32rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.orderInfo .title.data-v-c0591ae8 {
+  font-weight: 500;
+  font-size: 34rpx;
+  color: #000100;
+  line-height: 38rpx;
+}
+.orderInfo .left.data-v-c0591ae8 {
+  font-family: Source Han Sans CN, Source Han Sans CN;
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #666666;
+}
+.orderInfo .right.data-v-c0591ae8 {
+  font-family: Source Han Sans CN, Source Han Sans CN;
+  font-weight: 500;
+  font-size: 28rpx;
+  color: #333333;
+}
+.tabbar.data-v-c0591ae8 {
+  width: 100%;
+  height: 148rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #FFFFFF;
+  box-shadow: 0rpx -6rpx 12rpx 1rpx rgba(0, 0, 0, 0.1);
+  border-radius: 0rpx 0rpx 0rpx 0rpx;
+  padding: 30rpx 32rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+}
+.bottom_but.data-v-c0591ae8 {
+  width: 100%;
+  width: 330rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  border-radius: 16rpx 16rpx 16rpx 16rpx;
+  border: 2rpx solid #666666;
+}
+

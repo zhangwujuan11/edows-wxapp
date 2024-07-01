@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.contant.data-v-5d7e7620 {
+  background-color: #F1F1F1;
+  padding-top: 24rpx;
+}
+.starylist.data-v-5d7e7620 {
+  width: 100%;
+  padding: 32rpx;
+  border-radius: 20rpx;
+  background-color: white;
+}
+.comtip.data-v-5d7e7620 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.staryconli.data-v-5d7e7620 {
+  margin-bottom: 33rpx;
+  padding-bottom: 33rpx;
+  border-bottom: 1px solid #E9E9E9;
+}
+.staryconli image.data-v-5d7e7620 {
+  width: 64rpx;
+  height: 64rpx;
+  margin-right: 16rpx;
+}
+.staryconli .staryconlitext.data-v-5d7e7620 {
+  font-family: Source Han Sans CN, Source Han Sans CN;
+  font-size: 32rpx;
+  color: #333333;
+  line-height: 38rpx;
+}
+.staryconli .carnum.data-v-5d7e7620 {
+  color: #999999;
+  font-size: 24rpx;
+  margin-left: 8rpx;
+}
+.staryconli .date.data-v-5d7e7620 {
+  font-family: Source Han Sans CN, Source Han Sans CN;
+  font-weight: 400;
+  font-size: 24rpx;
+  color: #999999;
+}
+.album.data-v-5d7e7620 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.album__avatar.data-v-5d7e7620 {
+  padding: 5px;
+  border-radius: 3px;
+}
+.album__content.data-v-5d7e7620 {
+  flex: 1;
+  margin-bottom: 22rpx;
+}
+.data-v-5d7e7620 .u-album__row__wrapper image {
+  width: 206rpx !important;
+  height: 206rpx !important;
+  border-radius: 16rpx !important;
+}
+.data-v-5d7e7620 .u-album__row__wrapper__text {
+  width: 206rpx !important;
+  height: 206rpx !important;
+}
+

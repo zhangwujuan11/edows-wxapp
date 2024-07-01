@@ -1,0 +1,37 @@
+
+.bannercerbg.data-v-9b1e4610  {
+	width: 100%;
+	background-color: white;
+	height: 100rpx;
+	display: flex;
+	justify-content: space-around;
+}
+.serch.data-v-9b1e4610 {
+	height: 70rpx;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.select.data-v-9b1e4610 {
+	font-size: 32rpx;
+	display: flex;
+	align-items: center;
+	margin-right: 10rpx;
+}
+.data-v-9b1e4610 .u-input {
+	height: 66rpx;
+	font-size: 24rpx;
+	border-radius: 33rpx 33rpx 33rpx 33rpx;
+	color: black;
+}
+.secboxx.data-v-9b1e4610{
+	width: 575rpx;
+	position: relative;
+}
+.iconser.data-v-9b1e4610{
+	position: absolute;
+	right: 20rpx;
+	top: 6rpx;
+	z-index: 99;
+}
+

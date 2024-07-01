@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.custom-scan.data-v-1090f6be {
+  width: 100vw;
+  height: 100vh;
+}
+.custom-scan .scan-view.data-v-1090f6be {
+  width: 100%;
+  height: 100%;
+}
+.custom-scan .scan-container-box.data-v-1090f6be {
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+.custom-scan .scan-container-box .scan-wrap.data-v-1090f6be {
+  position: relative;
+  width: 470rpx;
+  height: 470rpx;
+  background: url(https://img.edows.cn/wx/saoma.png) no-repeat;
+  background-size: 100% 100%;
+  top: 180rpx;
+}
+.custom-scan .scan-container-box .scan-wrap .scan-line.data-v-1090f6be {
+  position: absolute;
+  width: 100%;
+  height: 1rpx;
+  background-color: #7C9EF0;
+  box-shadow: 0px -0px 10px 1px #7C9EF0;
+  top: 0;
+  left: 0;
+  -webkit-animation: scan-data-v-1090f6be 2s infinite linear;
+          animation: scan-data-v-1090f6be 2s infinite linear;
+}
+@-webkit-keyframes scan-data-v-1090f6be {
+0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+}
+80% {
+    opacity: 1;
+    box-shadow: 0px -0px 10px 1px #7C9EF0;
+}
+100% {
+    -webkit-transform: translateY(20vh);
+            transform: translateY(20vh);
+    opacity: 0;
+}
+}
+@keyframes scan-data-v-1090f6be {
+0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+}
+80% {
+    opacity: 1;
+    box-shadow: 0px -0px 10px 1px #7C9EF0;
+}
+100% {
+    -webkit-transform: translateY(20vh);
+            transform: translateY(20vh);
+    opacity: 0;
+}
+}
+.tipsbox.data-v-1090f6be {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.tips.data-v-1090f6be {
+  position: fixed;
+  top: 0;
+  border-bottom-left-radius: 16rpx;
+  border-bottom-right-radius: 16rpx;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 99;
+  font-size: 26rpx;
+  padding: 22rpx 45rpx;
+}
+.serbox.data-v-1090f6be {
+  position: fixed;
+  width: 100%;
+  height: 177rpx;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.serinpu.data-v-1090f6be {
+  color: white;
+  height: 86rpx;
+}
+.data-v-1090f6be .u-input__content {
+  width: 556rpx;
+  border-radius: 16rpx !important;
+  height: 86rpx !important;
+  background-color: #1A1D21 !important;
+}
+.data-v-1090f6be .u-input__content__field-wrapper__field {
+  color: white !important;
+}
+.autoser.data-v-1090f6be {
+  color: white;
+  width: 282rpx;
+  height: 78rpx;
+  line-height: 78rpx;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 16rpx 16rpx 16rpx 16rpx;
+  position: fixed;
+  bottom: 320rpx;
+  left: calc(50% - 141rpx);
+}
+

@@ -1,0 +1,117 @@
+
+.concant.data-v-b237504c {
+	width: 100%;
+	height: 100vh;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+}
+.noinfo.data-v-b237504c {
+	display: flex;
+	align-items: center;
+	margin-top: 49rpx;
+	margin-left: 13rpx;
+}
+.noinfo image.data-v-b237504c {
+	width: 180rpx;
+	height: 180rpx;
+}
+.noinfo .hollow.data-v-b237504c {
+	font-family: Source Han Sans CN, Source Han Sans CN;
+	font-weight: 500;
+	font-size: 40rpx;
+	color: #333333;
+	line-height: 53rpx;
+	text-align: left;
+	font-style: normal;
+	text-transform: none;
+}
+.formbox.data-v-b237504c {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 105rpx;
+}
+.formbox image.data-v-b237504c {
+	width: 50rpx;
+	height: 50rpx;
+}
+.data-v-b237504c .formbox .u-form {
+	width: 670rpx !important;
+}
+.data-v-b237504c .u-form-item {
+	height: 100rpx;
+	background: #F8F8F8;
+	border-radius: 48rpx 48rpx 48rpx 48rpx;
+	position: relative;
+	margin-bottom: 40rpx;
+	display: flex;
+	justify-content: center;
+}
+.data-v-b237504c .u-form-item image {
+	position: absolute;
+	left: 36rpx;
+	top: 28rpx;
+}
+.data-v-b237504c .u-input__content__field-wrapper__field {
+	padding-left: 102rpx !important;
+}
+.data-v-b237504c .u-input__content__subfix-icon {
+	border-left: 1px solid #BFBFBF !important;
+	padding-left: 24rpx;
+}
+.tackwx.data-v-b237504c{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 28rpx;
+	padding-bottom: 64rpx;
+	position: fixed;
+	bottom: 0;
+}
+.tackwx button.data-v-b237504c{
+	width: 80rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	text-align: center;
+	margin-top: 44rpx;
+	margin-bottom: 64rpx;
+	border: none !important;
+	background-color: transparent;
+	outline: none;
+	box-shadow: none;
+	padding: 0;
+	overflow: auto;
+}
+
+/* .tackwx button image{
+	width: 80rpx;
+	height: 80rpx;
+} */
+.ifagree.data-v-b237504c{
+	display: flex;
+	align-items: center;
+}
+.tackwxtip.data-v-b237504c{
+	font-family: Source Han Sans CN, Source Han Sans CN;
+	font-weight: 400;
+	font-size: 28rpx;
+	color: #999999;
+	border-top: 1px solid #999999;
+	width: 670rpx;
+	text-align: center;
+	position: relative;
+}
+.tackwxtip text.data-v-b237504c{
+	background-color: white;
+	position: absolute;
+	top: -20rpx;
+	left: 243rpx;
+	padding: 0 24rpx;
+}
+.ifagree text.data-v-b237504c{
+	color: #3272F4;
+}
+

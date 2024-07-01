@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "城市选择",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-search": "/uni_modules/uview-ui/components/u-search/u-search",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-index-list": "/uni_modules/uview-ui/components/u-index-list/u-index-list",
+    "u-index-item": "/uni_modules/uview-ui/components/u-index-item/u-index-item",
+    "u-index-anchor": "/uni_modules/uview-ui/components/u-index-anchor/u-index-anchor",
+    "u-loading-page": "/uni_modules/uview-ui/components/u-loading-page/u-loading-page"
+  }
+}

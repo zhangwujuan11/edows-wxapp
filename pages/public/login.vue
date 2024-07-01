@@ -3,7 +3,7 @@
 	<view class="container">
 
 		<view class="topImg">
-			<image src="/static/yddc.png"></image>
+			<image src="https://img.edows.cn/wx/yddc.png"></image>
 			<text @tap="makePhoneCall" class="serviceNo">联系客服</text>
 		</view>
 		<!-- 设置白色背景防止软键盘把下部绝对定位元素顶上来盖住输入框等 -->
@@ -33,10 +33,7 @@
 </template>
 
 <script>
-	import {
-		mapMutations
-	} from 'vuex';
-
+	import { mapMutations } from 'vuex';
 	export default {
 		data() {
 			return {

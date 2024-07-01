@@ -1,11 +1,169 @@
 {
+	"subPackages": [
+		{
+			"root": "page_index",
+			"pages": [
+					{
+						"path" : "shoplist/shoplist",
+						"style" : 
+						{
+							"navigationBarTitleText" : "门店列表",
+							"enablePullDownRefresh" : false
+						}
+					},
+					{
+						"path" : "shopdetail/shopdetail",
+						"style" : 
+						{
+							"navigationBarTitleText" : "门店详情",
+							"enablePullDownRefresh" : false,
+							"navigationStyle": "custom"    
+						}
+					},
+					{
+						"path" : "choosecity/choosecity",
+						"style" : 
+						{
+							"navigationBarTitleText" : "城市选择",
+							"enablePullDownRefresh" : false
+						}
+			
+					},
+					{
+						"path" : "reservationList/reservationList",
+						"style": {
+							"navigationBarTitleText": "预约服务列表",
+							"enablePullDownRefresh": false 
+						}
+					},
+					{
+						"path" : "reserveDetails/reserveDetails",
+						"style" : 
+						{
+							"navigationBarTitleText" : "预约详情",
+							"enablePullDownRefresh": false 
+						}
+					},
+					{
+						"path" : "shopevaluate/shopevaluate",
+						"style" : 
+						{
+							"navigationBarTitleText" : "门店评价",
+							"enablePullDownRefresh": false 
+					
+						}
+					},
+					{
+						"path" : "confirmReserv/confirmReserv",
+						"style" : 
+						{
+							"navigationBarTitleText" : "确认预约单",
+							"enablePullDownRefresh" : false
+						}
+					},
+					{
+						"path" : "carlist/carlist",
+									"style" : 
+									{
+										"navigationBarTitleText" : "车辆信息",
+										"enablePullDownRefresh" : false
+									}
+								},
+					{
+						"path" : "message/message",
+						"style" : 
+						{
+							"navigationBarTitleText" : "消息中心",
+							"enablePullDownRefresh" : false
+						}
+					},
+					{
+						"path" : "messageDetails/messageDetails",
+						"style" : 
+						{
+							// "backgroundColor":"#3C9CFF",
+							"navigationBarTitleText" : ""
+						}
+					},
+					{
+						"path" : "complain/complain",
+						"style" : 
+						{
+							"navigationBarTitleText" : "投诉建议",
+							"enablePullDownRefresh" : false
+						}
+					},
+					{
+						"path" : "shopserchdata/shopserchdata",
+						"style" : 
+						{
+							"navigationBarTitleText" : "",
+							"enablePullDownRefresh" : false
+						}
+					},
+					{
+						"path" : "car/car",
+						"style" : 
+						{
+							"navigationBarTitleText" : "",
+							"enablePullDownRefresh" : false
+						}
+					},
+
+					{
+						"path" : "mycream/mycream",
+						"style" : 
+						{
+							"navigationBarTitleText" : "",
+							"enablePullDownRefresh" : false
+						}
+					}
+			]
+		},
+		{
+			"root": "page_order",
+			"pages": [
+				{
+					"path" : "orderDetails/orderDetails",
+					"style" : 
+					{
+						"navigationBarTitleText": "订单详情",
+						"navigationBarBackgroundColor": "#2163EC",
+						"navigationBarTextStyle": "white" 
+				
+					}
+				},
+				{
+					"path" : "query/query",
+					"style" : 
+					{
+						"navigationBarTitleText" : "提出质疑"
+					}
+				},
+				{
+					"path" : "orderEvaluate/orderEvaluate",
+					"style" : 
+					{
+						"navigationBarTitleText" : "写评价"
+					}
+				},
+				{
+					"path" : "orderEvaluate/orderEvaluateSuc",
+					"style" : 
+					{
+						"navigationBarTitleText" : "评价成功"
+					}
+				}
+			]
+		}
+	],
 	"pages": [
 
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "易道大咖商城",
-				"navigationBarBackgroundColor": "#399eff", //头部背景色
+				"navigationBarTitleText": "易道大咖",
+				"navigationBarBackgroundColor": "#2163EC", //头部背景色
 				"enablePullDownRefresh": false, //下拉刷新
 				"navigationBarTextStyle": "white" //头部字体颜色，
 			}
@@ -16,7 +174,15 @@
 				"navigationBarTitleText": "预约服务"
 			}
 		},
-
+		{
+			"path": "pages/mall/mall",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"navigationBarBackgroundColor": "#399eff", //头部背景色
+				"enablePullDownRefresh": false, //下拉刷新
+				"navigationBarTextStyle": "white" //头部字体颜色，
+			}
+		},
 		{
 			"path": "pages/reserve/reserveSuc",
 			"style": {
@@ -277,7 +443,52 @@
            	"navigationBarTitleText": "流水"
            }
             
+        },
+        {
+        	"path" : "pages/customerorder/customerorder",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "工单",
+        		"enablePullDownRefresh" : false
+        	}
+        },
+        {
+        	"path" : "pages/mine/mine",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "我的",
+        		"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor":"#4681FD",
+				"enablePullDownRefresh": false, //下拉刷新
+				"navigationBarTextStyle": "white" //头部字体颜色，
+        	}
+        },
+		{
+			"path" : "pages/Invite/Invite",
+			"style" : 
+			{
+				"navigationBarTitleText" : "邀请好友"
+
+			}
+        },
+
+        {
+        	"path" : "pages/login/login",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "",
+        		"enablePullDownRefresh" : false
+        	}
+        },
+        {
+        	"path" : "pages/Agreement/Agreement",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "",
+        		"enablePullDownRefresh" : false
+        	}
         }
+
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
@@ -287,35 +498,50 @@
 	},
 	"tabBar": {
 		"color": "#C0C4CC",
-		"selectedColor": "#339cfe",
-		//"selectedColor": "#C0C4CC",
-		// "borderStyle": "black",
+		"selectedColor": "#356BF1",
 		"backgroundColor": "#ffffff",
 		"list": [{
 				"pagePath": "pages/index/index",
-				"iconPath": "static/tab-home.png",
-				"selectedIconPath": "static/tab-home-current.png",
-				//"selectedIconPath": "static/tab-home.png",
+				"iconPath": "static/banner/tab-home.png",
+				"selectedIconPath": "static/banner/tab-home-current.png",
 				"text": "首页"
 			},
 			{
-				"pagePath": "pages/category/category",
-				"iconPath": "static/tab-cate.png",
-				"selectedIconPath": "static/tab-cate-current.png",
-				"text": "分类"
+				"pagePath": "pages/customerorder/customerorder",
+				"iconPath": "static/banner/customerorder.png",
+				"selectedIconPath": "static/banner/customerordercus.png",
+				"text": "工单"
 			},
 			{
-				"pagePath": "pages/cart/cart",
-				"iconPath": "static/tab-cart.png",
-				"selectedIconPath": "static/tab-cart-current.png",
-				"text": "购物车"
+				"pagePath": "pages/mall/mall",
+				"iconPath": "static/banner/mall.png",
+				"selectedIconPath": "static/banner/mallcus.png",
+				"text": "商城"
 			},
 			{
-				"pagePath": "pages/user/user",
-				"iconPath": "static/tab-my.png",
-				"selectedIconPath": "static/tab-my-current.png",
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/banner/tab-my.png",
+				"selectedIconPath": "static/banner/tab-my-current.png",
 				"text": "我的"
 			}
+			// {
+			// 	"pagePath": "pages/category/category",
+			// 	"iconPath": "static/tab-cate.png",
+			// 	"selectedIconPath": "static/tab-cate-current.png",
+			// 	"text": "分类"
+			// },
+			// {
+			// 	"pagePath": "pages/cart/cart",
+			// 	"iconPath": "static/tab-cart.png",
+			// 	"selectedIconPath": "static/tab-cart-current.png",
+			// 	"text": "购物车"
+			// },
+			// {
+			// 	"pagePath": "pages/user/user",
+			// 	"iconPath": "static/tab-my.png",
+			// 	"selectedIconPath": "static/tab-my-current.png",
+			// 	"text": "我的"
+			// }
 		]
 	},
 	"condition": { //模式配置，仅开发期间生效

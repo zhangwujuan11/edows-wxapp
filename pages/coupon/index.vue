@@ -564,7 +564,7 @@
 					position: absolute;
 					right: 30upx;
 					top: 30upx;
-					background: url(../../static/timed.png) no-repeat;
+					background: url(https://img.edows.cn/wx/timed.png) no-repeat;
 					background-size: contain;
 				}
 
@@ -576,7 +576,7 @@
 					position: absolute;
 					right: 30upx;
 					top: 30upx;
-					background: url(../../static/used.png) no-repeat;
+					background: url(https://img.edows.cn/wx/used.png) no-repeat;
 					background-size: contain;
 				}
 

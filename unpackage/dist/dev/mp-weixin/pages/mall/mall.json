@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "商城",
+  "navigationBarBackgroundColor": "#399eff",
+  "enablePullDownRefresh": false,
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "swiper-dot": "/components/swiperDot",
+    "custom-tab-bar": "/components/CustomTabBar"
+  }
+}

@@ -389,6 +389,7 @@
 							let totals = 0//临时需支付
 							if (that.securityData.couponAmount <= Number(that.securityData.securityBalance)) {
 								// 商品合计小于样板余额
+								console.log(that.couponData.couponAmount, that.goodsPrice)
 								if (that.securityData.balanceMany == 0) {	
 									if(that.securityData.couponAmount >=  Number(that.couponData.couponAmount)){
 										that.securityData.payable = "-￥" +  ( Number(that.goodsPrice) -  Number(that.couponData.couponAmount))
@@ -410,6 +411,7 @@
 								}
 							} else if (that.securityData.securityBalance != '0.00' && that.goodsPrice!=that.securityData.couponAmount) {
 								// 样板余额有钱
+								
 								totals = that.goodsPrice - that.securityData.securityBalance - that.couponData.couponAmount
 								that.total = Number(totals.toFixed(2)) <0? 0 :  Number(totals.toFixed(2))
 								that.securityData.payable = "-￥" + that.securityData.securityBalance
@@ -461,18 +463,19 @@
 							if ((nota <= Number(that.securityData.limitedBalance))){
 								// 商品合计小于限时余额
 								if (that.securityData.balanceMany == 0) {
-									if(that.securityData.limitedBalance >=  that.goodsPrice){
-										totals = that.securityData.limitedBalance -  (nota - that.couponData.couponAmount - (nota -  Number(that.couponData.couponAmount)))< 0?   0 :nota - that.couponData.couponAmount - (nota -  Number(that.couponData.couponAmount))
+									if(nota >=  Number(that.couponData.couponAmount)){
+										console.log(888)
+										totals = (nota - that.couponData.couponAmount - (nota -  Number(that.couponData.couponAmount)))< 0?   0 :nota - that.couponData.couponAmount - (nota -  Number(that.couponData.couponAmount))
 										that.total = Number(totals.toFixed(2)) <0? 0 :  Number(totals.toFixed(2));
-										that.securityData.payabled = "-￥" +  ( Number(that.goodsPrice) -  Number(that.couponData.couponAmount)).toFixed(2)
+										that.securityData.payabled = "-￥" +(nota -  Number(that.couponData.couponAmount))
 										that.securityData.classN = "red"
 										that.securityData.useBalance =2
 										that.securityData.balanceMany = 1
 										that.usedisnshi = true
 									}else{
 										console.log(999)
-										that.securityData.payabled = "-￥" + (that.securityData.limitedBalance).toFixed(2)
-										totals = (that.goodsPrice - that.securityData.limitedBalance)< 0?   0 :(that.goodsPrice - that.securityData.limitedBalance);
+										that.securityData.payabled = "-￥" +  (nota)
+										totals = (nota - that.couponData.couponAmount)< 0?   0 :(nota - that.couponData.couponAmount);
 										that.total = Number(totals.toFixed(2)) <0? 0 :  Number(totals.toFixed(2))
 										that.securityData.classN = "red"
 										that.securityData.useBalance = 2
@@ -647,11 +650,12 @@
 					//商品折扣券
 					if (e.couponTypeCode == "YDZKQ") {
 						if (e.coupon.useType == 0) {
+							console.log(e.denomination/10)
 							if (this.total >= e.coupon.minPoint) {
 								this.couponData.payable = '全场商品( ' + (e.denomination / 10) + ' 折优惠券 )';
-								this.total =this.goodsPrice * e.denomination / 100
+								this.total =this.goodsPrice * e.denomination / 10
 								this.total = Number(this.total.toFixed(2));
-								this.couponData.couponAmount =  this.goodsPrice - (this.goodsPrice * e.denomination / 100)
+								this.couponData.couponAmount =  this.goodsPrice - (this.goodsPrice * e.denomination / 10)
 								this.couponData.couponAmount = Number(this.couponData.couponAmount.toFixed(2));
 								this.showCoupon = false;
 							} else {
@@ -728,7 +732,8 @@
 									this.couponData.payable = '全场商品( ' + (e.denomination / 10) + ' 折优惠券 )';
 									this.total = this.total * e.denomination / 100;
 									this.total = Number(this.total.toFixed(2));
-									this.couponData.couponAmount = this.goodsPrice - (this.goodsPrice * e.denomination / 100)
+									this.couponData.couponAmount = this.goodsPrice - (this.goodsPrice * e
+										.denomination / 100)
 									this.couponData.couponAmount = Number(this.couponData.couponAmount.toFixed(2));
 									this.securityData.couponPrice = couponPrice - e.denomination;
 									this.showCoupon = false;
@@ -1534,7 +1539,7 @@
 					position: absolute;
 					right: 30upx;
 					top: 30upx;
-					background: url(../../static/timed.png) no-repeat;
+					background: url(https://img.edows.cn/wx/timed.png) no-repeat;
 					background-size: contain;
 				}
 
@@ -1546,7 +1551,7 @@
 					position: absolute;
 					right: 30upx;
 					top: 30upx;
-					background: url(../../static/used.png) no-repeat;
+					background: url(https://img.edows.cn/wx/used.png) no-repeat;
 					background-size: contain;
 				}
 

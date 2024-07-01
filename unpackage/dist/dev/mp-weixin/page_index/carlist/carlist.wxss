@@ -1,0 +1,114 @@
+
+.content.data-v-54fc6ef6{
+	background-color: #F1F1F1;
+	min-height: 100vh;
+}
+.cacrul.data-v-54fc6ef6{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.cacrul .cacrli.data-v-54fc6ef6{
+	background-color: white;
+	border-radius: 20rpx;
+	padding: 40rpx 32rpx;
+	width: 686rpx;
+	margin-top: 24rpx;
+}
+.cacrlicon.data-v-54fc6ef6{
+	display: flex;
+	align-items: center;
+	font-family: Source Han Sans CN, Source Han Sans CN;
+	font-weight: 500;
+	font-size: 32rpx;
+	color: #0E1D29;
+	line-height: 50rpx;
+}
+.cacrlicon image.data-v-54fc6ef6{
+	width: 146rpx;
+	height: 146rpx;
+	border-radius: 20rpx;
+}
+.cacrlicon text.data-v-54fc6ef6{
+	padding: 5rpx 8rpx;
+	color:#C13B3B;
+	background-color: #FBDFDA;
+	font-size: 20rpx;
+	border-radius: 3rpx;
+	margin-left: 12rpx;
+}
+.chejai.data-v-54fc6ef6{
+	font-family: Source Han Sans CN, Source Han Sans CN;
+	font-weight: 400;
+	font-size: 24rpx;
+	color: #0E1D29;
+	line-height: 50rpx;
+}
+.cacrlibtn.data-v-54fc6ef6{
+	display: flex;
+	justify-content: flex-end;
+}
+.cacrlibtn view.data-v-54fc6ef6{
+	padding: 8rpx 15rpx;
+}
+.addbtncon.data-v-54fc6ef6{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	padding: 30rpx 32rpx;
+	position: fixed;
+	bottom: 0px;
+	box-shadow: 0rpx -6rpx 12rpx 1rpx rgba(0,0,0,0.1);
+}
+.nocarli.data-v-54fc6ef6{
+	background-color: white;
+	height:calc(100vh - 140rpx) ;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: #999999;
+	font-size: 28rpx;
+}
+.nocarli image.data-v-54fc6ef6{
+	width: 610rpx;
+	height: 300rpx;
+	margin-bottom: 48rpx;
+}
+.showcomodal.data-v-54fc6ef6{
+	width: 100%;
+	padding: 28rpx 40rpx;
+}
+.data-v-54fc6ef6 .u-modal__content{
+	padding: 0 !important;
+}
+.u-modaltitle.data-v-54fc6ef6{
+	display: flex;
+	justify-content: space-between;
+}
+.u-modaltitle text.data-v-54fc6ef6{
+	font-family: Source Han Sans CN, Source Han Sans CN;
+	font-weight: 500;
+	font-size: 32rpx;
+	color: #333333;
+}
+.u-modalcon.data-v-54fc6ef6{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.u-modalcon text.data-v-54fc6ef6{
+	margin-top: 24rpx;
+	margin-bottom: 80rpx;
+}
+.btnc.data-v-54fc6ef6{
+	width: 260rpx;
+}
+.data-v-54fc6ef6 .u-button--plain.u-button--info{
+	border: 1px solid #707070;
+	box-shadow: none;
+}
+

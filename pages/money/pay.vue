@@ -1,7 +1,7 @@
 <template>
 	<view class="app">
 		<view class="orderInfo-box">
-			<image src="../../static/order.png"></image>
+			<image src="https://img.edows.cn/wx/order.png"></image>
 			<text>订单提交成功</text>
 		</view>
 		<!-- <view class="order-box">

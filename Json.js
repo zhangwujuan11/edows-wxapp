@@ -241,7 +241,7 @@ const detailData = {
 }
 const shareList = [{
 		type: 1,
-		icon: '/static/temp/share_wechat.png',
+		icon: 'https://img.edows.cn/wx/share_wechat.png',
 		text: '微信好友'
 	},
 	{

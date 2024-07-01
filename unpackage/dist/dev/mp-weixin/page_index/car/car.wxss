@@ -1,0 +1,109 @@
+
+.contant.data-v-68e2bd8c{
+	background-color: #F1F1F1;
+	height: 100vh;
+	padding-top:25rpx ;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.yidaotips.data-v-68e2bd8c{
+	font-family: Source Han Sans CN, Source Han Sans CN;
+	font-weight: 400;
+	font-size: 24rpx;
+	color: #999999;
+	width: 100%;
+	display: flex;
+	/* margin: 25rpx 0; */
+}
+.yidaotips image.data-v-68e2bd8c{
+	width: 30rpx;
+	height: 30rpx;
+	margin-left: 32rpx;
+	margin-right: 8rpx;
+}
+.carNum.data-v-68e2bd8c{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.carNum .inpu.data-v-68e2bd8c{
+	width: 64rpx;
+	height: 100rpx;
+	background-color: #F8F8F8;
+	border-radius: 10rpx 10rpx 10rpx 10rpx;
+}
+.carNum .inpu input.data-v-68e2bd8c{
+	width: 64rpx;
+	height: 100rpx;
+	line-height: 100rpx;
+	text-align: center;
+}
+.con.data-v-68e2bd8c{
+	background-color: white;
+	border-radius: 20rpx;
+	padding: 40rpx 25rpx;
+	margin-top: 32rpx;
+	width: 686rpx;
+}
+.enm.data-v-68e2bd8c{
+	font-family: Source Han Sans CN, Source Han Sans CN;
+	font-weight: 500;
+	font-size: 32rpx;
+	color: #0E1D29;
+	line-height: 50rpx;
+	display: flex;
+	margin-bottom: 32rpx;
+	align-items: center;
+}
+.enm text.data-v-68e2bd8c{
+	color: #EF151A;
+}
+.enm .fo.data-v-68e2bd8c{
+	font-family: Source Han Sans CN, Source Han Sans CN;
+	font-weight: 400;
+	font-size: 24rpx;
+	color: #999999;
+	border-left: 1px solid #C5C5C5;
+	margin-left: 13rpx;
+	padding-left: 13rpx;
+	height: 32rpx;
+	line-height: 32rpx;
+}
+.enm .fot.data-v-68e2bd8c{
+	font-family: Source Han Sans CN, Source Han Sans CN;
+	font-weight: 400;
+	font-size: 32rpx;
+	color: #999999;
+	height: 32rpx;
+	line-height: 32rpx;
+	display: flex;
+	align-items: center;
+}
+.enm .fot image.data-v-68e2bd8c{
+	width: 40rpx;
+	height: 40rpx;
+	margin-left: 12rpx;
+}
+.acticv.data-v-68e2bd8c{
+    box-shadow: 0px 0px 5px 0px rgba(64, 159, 255,0.25);
+    border:1px solid #409EFF;
+	border-radius: 20rpx;
+}
+.newpower.data-v-68e2bd8c{
+	background-color: #D9FEED !important;
+}
+.data-v-68e2bd8c .newpower .acticv{
+	 border:1px solid #1EB56D !important;
+}
+.bottbtn.data-v-68e2bd8c{
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	box-shadow: 0rpx -6rpx 12rpx 1rpx rgba(0,0,0,0.1);
+	padding: 30rpx 32rpx;
+}
+

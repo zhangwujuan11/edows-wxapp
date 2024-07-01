@@ -36,10 +36,10 @@
 					<image :src="item.masterImg"></image>
 				</view>
 				<text class="title clamp2">{{item.name}}</text>
-				<view class="price-box">
+				<!-- <view class="price-box">
 					<text class="price">{{item.minPrice}}</text>
 					<text>已售 {{item.gmrs}}</text>
-				</view>
+				</view> -->
 			</view>
 		</view>
 		<uni-load-more :status="loadingType"></uni-load-more>

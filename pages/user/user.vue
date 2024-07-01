@@ -2,12 +2,12 @@
 	<view class="container">
 		<view class="user-section blueGradient">
 			<view class="user-info-box ">
-				<block  v-if="Object.keys(userInfo).length>0">
+				<block  v-if="userInfo.nickName">
 					<view class="portrait-box">
 						<image class="portrait" :src="userInfo.avatar"></image>
 					</view>
 					<view class="info-box">
-						<text class="username">{{name}}</text>
+						<text class="username">{{userInfo.nickName}}</text>
 						<!-- <view class="points" @click="onPoints">积分：{{scores.integration}}</view> -->
 						<view class="points">限时余额：{{scores.limitedBalance}}</view>
 						<view class="points">样板余额：{{scores.securityBalance}}</view>
@@ -170,14 +170,11 @@
 				coverTransform: 'translateY(0px)',
 				coverTransition: '0s',
 				moving: false,
-				scores:0,
-				name:''
+				scores:0
 			}
 		},
 
 		onLoad(option) {
-			this.name=uni.getStorageSync('userInfo').nickName || '微信用户'
-			// console.log(uni.getStorageSync('userInfo').nickName,66666)
 			// console.log('hasLogin：',this.hasLogin, 'option：',option);
 			// let returnUrl = getCurrentPages()[0].route;
 			// console.log('当前路由：',returnUrl);
@@ -219,6 +216,7 @@
 			async getData(){
 				let score = await this.$axios(this.$baseUrl.scoreone)
 				this.scores = score.data.data
+				console.log("666",this.scores)
 			},
 			/**
 			 * 统一跳转接口,拦截未登录路由
@@ -359,7 +357,7 @@
 		display: block;
 		width: 48upx;
 		height: 48upx;
-		background: url(../../static/icon/order.png) no-repeat;
+		background: url(https://img.edows.cn/wx/order.png) no-repeat;
 		background-size: contain;
 		margin: 20upx 0
 	}

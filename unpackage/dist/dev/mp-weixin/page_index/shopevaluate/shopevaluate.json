@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "门店评价",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-rate": "/uni_modules/uview-ui/components/u-rate/u-rate",
+    "u--text": "/uni_modules/uview-ui/components/u--text/u--text",
+    "u-album": "/uni_modules/uview-ui/components/u-album/u-album"
+  }
+}
